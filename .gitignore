@@ -46,3 +46,6 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# Private Key SSH
+task_4/rsschool-learning-key.pem
+
