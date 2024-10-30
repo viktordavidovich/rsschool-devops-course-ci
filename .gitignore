@@ -47,5 +47,5 @@ override.tf.json
 terraform.rc
 
 # Private Key SSH
-task_4/rsschool-learning-key.pem
+task_4/jenkins-setup.pem
 
