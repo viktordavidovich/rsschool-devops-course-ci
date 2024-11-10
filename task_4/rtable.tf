@@ -4,11 +4,11 @@ resource "aws_route_table" "public_rt_jenkins" {
 
   route {
     cidr_block = "0.0.0.0/0"
-    gateway_id = aws_internet_gateway.igw_k8s.id
+    gateway_id = aws_internet_gateway.igw_jenkins.id
   }
 
   tags = {
-    Name = "public_route_table_k8s"
+    Name = "public_route_table_jenkins"
   }
 }
 # Associate public route table with public subnets
