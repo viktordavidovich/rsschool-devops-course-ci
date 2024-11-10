@@ -8,3 +8,6 @@ We will perform the following steps:
 
 - Installation and configuration of a Jenkins server
 - A pipeline configuration
+
+
+Working on task 5
